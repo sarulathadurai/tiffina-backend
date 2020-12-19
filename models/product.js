@@ -2,13 +2,13 @@ const mongoose = require("mongoose");
 
 const productSchema = new mongoose.Schema(
     {
-        Title:{
+        title:{
             type:String,
             trim:true,
             required:true,
             maxlength:32,
         },
-        Description:{
+        description:{
             type:String,
             trim:true,
             maxlength:1000,
